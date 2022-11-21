@@ -1,0 +1,114 @@
+body {
+    background-color: #22333B;
+    font-family: 'Barlow', sans-serif;
+}
+
+#fgp_nav, .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.navbar-brand {
+    color: white;
+    transition: 200ms;
+}
+
+.navbar-brand.color {
+    color:black;
+}
+
+.navbar-toggler-icon {
+    transition: 200ms;
+}
+
+.navbar-toggler-icon.iconvar {
+    background-color: black;
+    border-radius: 10px;
+}
+
+#fgp_nav .nav-link {
+    color: #6E7DAB;
+}
+
+#fgp_nav .nav-link:hover {
+    color: #8C7284;
+}
+
+#fiancegate span {
+    color: #dc3545;
+}
+
+#fiancegate h1 {
+    font-weight: 100;
+    line-height:200%;
+}
+#fiancegate h1:nth-of-type(1) {
+    padding-top: 20px;
+}
+
+@media (max-width: 1550px) {
+    #fiancegate h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    #fiancegate h1 {
+        font-size: 3.2rem;
+    }
+}
+
+svg {
+    height:50px;
+    width:50px;
+}
+
+#handmaid {
+    max-height: 1280px;
+}
+
+.hm_tale h2 {
+    color:#dc3545;
+    font-size: 2rem;
+}
+
+.hm_tale p {
+    font-size: 1rem;
+    line-height: 200%;
+}
+
+iframe {
+    height: 500px
+}
+
+.bigbrother, .hm_tale {
+    margin-top: 50px;
+}
+
+.bigbrother:nth-of-type(1) {
+    margin-top:0;
+}
+
+.navbar {
+    transition: background 200ms;
+}
+
+.navbar.background {
+    background-color: #F4F1DE;
+}
+
+
+
+@media (min-width: 2000px) {
+    .hm_tale p {
+        font-size: 2rem;
+    }
+    .hm_tale h2 {
+        color:#dc3545;
+        font-size: 5rem;
+    }
+
+    iframe {
+        height:1000px;
+    }
+}
