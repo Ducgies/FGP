@@ -6,6 +6,7 @@ body {
 #fgp_nav, .navbar-brand {
     font-size: 1.5rem;
     font-weight: 100;
+    color: white;
 }
 
 .navbar-brand {
@@ -27,7 +28,7 @@ body {
 }
 
 #fgp_nav .nav-link {
-    color: #8B0000;
+    color: white;
 }
 
 #fgp_nav .nav-link:hover {
@@ -94,7 +95,7 @@ iframe {
 }
 
 .navbar.background {
-    background-color: #F4F1DE;
+    background-color: #8B0000;
 }
 
 
