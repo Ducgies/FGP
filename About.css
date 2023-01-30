@@ -1,0 +1,44 @@
+body {
+    background-color: #22333B;
+    font-family: 'Barlow', sans-serif;
+}
+
+#fgp_nav, .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+    transition: 200ms;
+}
+
+.navbar-brand.color {
+    color:black;
+}
+
+.navbar-toggler-icon {
+    transition: 200ms;
+}
+
+.navbar-toggler-icon.iconvar {
+    background-color: black;
+    border-radius: 10px;
+}
+
+#fgp_nav .nav-link {
+    color: white;
+}
+
+#fgp_nav .nav-link:hover {
+    color: #8C7284;
+}
+
+.navbar {
+    transition: background 200ms;
+}
+
+.navbar.background {
+    background-color: #8B0000;
+}
